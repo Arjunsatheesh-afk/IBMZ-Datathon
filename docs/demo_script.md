@@ -18,12 +18,12 @@ Reviewer, with a name and a written reason, can decrypt, and every decryption is
 occurs in TRANSFER and CASH_OUT, so we model those. Kaggle warns that the balance columns
 leak the answer, so we deliberately did not use them.
 We proved tokenization costs no accuracy: features computed from raw IDs and from tokens
-are identical. ROC-AUC is 0.93. If analysts review the top 600 alerts, 97% are real fraud."
+are identical. ROC-AUC is 0.93. If analysts review the top 600 alerts, 97% are real fraud in our test window."
 
 ## 1:20-1:55  Running on IBM LinuxONE (terminal: uname -m, docker ps)
 "This runs on an IBM LinuxONE server: s390x, in a container. The scoring function takes
-about 4 milliseconds per transaction; through the API it is 4.2 milliseconds median and
-5.7 at the 95th percentile. We also completed both IBM labs on this platform."
+about 4 milliseconds per transaction; through the API it is 4.0 milliseconds median and
+4.9 at the 95th percentile. We also completed both IBM labs on this platform."
 
 ## 1:55-2:40  The dashboard (live demo)
 "Analyst view: tokens only, sorted by risk, with the reason for each alert. Reviewer view:
