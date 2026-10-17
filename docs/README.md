@@ -111,3 +111,8 @@ The demonstration should cover the problem, dataset, solution, dashboard, securi
 12. AI Tool Disclosure
 
 Parts of this project were developed with help from Claude (Anthropic). All code was written during the Datathon window (17–18 October 2026).
+How to Run
+
+Install dependencies: "python -m pip install -r dashboard/requirements.txt"
+Run the dashboard: "python -m streamlit run dashboard/app.py"
+Open the local URL shown in the terminal.
