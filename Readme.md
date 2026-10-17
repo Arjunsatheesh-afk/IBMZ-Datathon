@@ -107,6 +107,13 @@ Dashboard: see `docs/README.md`. Leak test: `python tests/leak_test.py dashboard
 
 Dataset: [PaySim on Kaggle](https://www.kaggle.com/datasets/ealaxi/paysim1) (see the page for its license). Platform: IBM LinuxONE Community Cloud and IBM's provided JupyterLab image.
 
+## IBM labs completed
+
+Both mandatory IBM Z labs were completed on IBM LinuxONE. Screenshots:
+
+- Lab 1 (fraud detection with an LSTM in TensorFlow): [docs/evidence/lab-1](docs/evidence/lab-1)
+- Lab 2 (loan underwriting with IBM Granite and retrieval): [docs/evidence/lab-2](docs/evidence/lab-2)
+
 ## Team
 
 Team: **The STARK Paradox** | IBM Z Datathon 2026 | Event code: SSF2026
