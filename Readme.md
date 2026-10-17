@@ -48,7 +48,7 @@ Alert budget on the test window (an analyst reviews the N highest-risk transacti
 | OS and size | Ubuntu 24.04.5 LTS, 3 CPUs, 8 GB RAM |
 | Containers | `stark-scoring-api:2.0` (our API) and the IBM-provided JupyterLab image |
 | In-process scoring | about 4 ms per transaction |
-| API latency | p50 4.2 ms, p95 5.7 ms, p99 8.9 ms (1,000 sequential requests, one client, localhost, includes HTTP) |
+| API latency | p50 4.0 ms, p95 4.9 ms, p99 7.3 ms (1,000 sequential requests, one client, localhost, includes HTTP) |
 | IBM labs | both mandatory labs completed on this instance (screenshots in `docs/evidence/`) |
 
 The IBM image includes a zDNN plugin. Our model is XGBoost on CPU, and we make no claim about NNPA acceleration.
