@@ -1,0 +1,100 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="7suVeNx8dXk2ijLSbHjb">
+    <mxGraphModel dx="1030" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MhMlwCajl7PG14zcYemp-3" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;PaySim transaction data&lt;/b&gt;&lt;div&gt;input transaction records&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-7" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Tokenization laye&lt;/b&gt;r&lt;div&gt;HMAC-SHA256&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="320" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-31" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;b&gt;FastAPI scoring AP&lt;/b&gt;I - IBM LinuxONE" vertex="1">
+          <mxGeometry height="70" width="120" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-32" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="MhMlwCajl7PG14zcYemp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="AES-GCM&amp;nbsp;&lt;div&gt;&lt;b&gt;Encrypted token vault&lt;/b&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="390" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-30" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.417;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;b&gt;Fraud detection models&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="220" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-29" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="alerts.csv" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-22" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" x="0.0095" as="geometry">
+            <Array as="points">
+              <mxPoint x="300" y="635" />
+              <mxPoint x="360" y="635" />
+              <mxPoint x="360" y="640" />
+            </Array>
+            <mxPoint x="360" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Streamlit dashboard" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;b&gt;Analyst view&lt;/b&gt;&lt;div&gt;view and filter alerts&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="230" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;" value="&lt;b&gt;Reviewer view&lt;/b&gt;&lt;div&gt;re-identification&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="370" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-27" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Reviewer Authorization&lt;/b&gt;&lt;div&gt;Name + written reason&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="580" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-28" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;Re - identification&lt;/b&gt;&lt;div&gt;AES-GCM decryption&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="414" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;br&gt;&lt;div&gt;&lt;b&gt;AUDIT LOG&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Timestamp,reviewer,&lt;/div&gt;&lt;div&gt;token,reason,result&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="410" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-26" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;">
+          <mxGeometry relative="1" x="-0.237" as="geometry">
+            <Array as="points">
+              <mxPoint x="444" y="735" />
+              <mxPoint x="534" y="735" />
+              <mxPoint x="534" y="645" />
+              <mxPoint x="616" y="645" />
+            </Array>
+            <mxPoint x="414" y="725" as="sourcePoint" />
+            <mxPoint x="615.96" y="682.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-34" edge="1" parent="1" source="MhMlwCajl7PG14zcYemp-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" target="MhMlwCajl7PG14zcYemp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MhMlwCajl7PG14zcYemp-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;b&gt;AES KEY&amp;nbsp;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="630" y="400" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
