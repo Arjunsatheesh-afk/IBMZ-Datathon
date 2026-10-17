@@ -109,4 +109,4 @@ Dataset: [PaySim on Kaggle](https://www.kaggle.com/datasets/ealaxi/paysim1) (see
 
 ## Team
 
-The STARK Paradox: Arjun Satheesh (lead, data science and integration), TODO name (LinuxONE platform and scoring API), TODO name (dashboard, documentation and video).
+Team: **The STARK Paradox** | IBM Z Datathon 2026 | Event code: SSF2026
