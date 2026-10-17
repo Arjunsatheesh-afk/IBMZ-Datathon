@@ -13,10 +13,12 @@ VAULT_PATH = DATA_DIR / "vault_alerts.json"
 AUDIT_PATH = DATA_DIR / "audit_log.jsonl"
 
 # Keep the AES key outside the repository.
-KEY_PATH = Path.home() / "Downloads" / "aes.key"
+import os as _os
+KEY_PATH = Path(_os.environ.get("STARK_AES_KEY", str(Path.home() / "Downloads" / "aes.key")))
 
-# vault.py is inside dashboard/data/
-sys.path.insert(0, str(DATA_DIR))
+# vault.py lives in <repo>/pipeline/
+sys.path.insert(0, str(DASHBOARD_DIR.parent / "pipeline"))
+DATA_DIR.mkdir(exist_ok=True)
 from vault import load_vault, load_key, reidentify
 
 
